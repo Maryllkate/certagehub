@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top-navbar{
+    background-color: #232325;
+    width: 100vw;
+}
+.logo {
+    width: 250px;
+    height: auto;
+    cursor: pointer;
+}
+.selection-container > ul > li > a, 
+ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.btn-custom-dark {
+    background-color: #21262D;
+    border: solid 2.5px #31363D;
+    border-radius: 8px 8px;
+    font-weight: bold;
+    padding: 6px 12px;
+}
+
+/* container-banner-section*/
+
+.main-banner {
+    background-color: #2B2B2F;
+    height: 100vh;
+}
+
+.first-banner-section {
+    padding: 5% 2% 5% 0;
+}
+
+.head-banner {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2%;
+}
+
+.head-banner > h2 {
+    color: #ffffff;
+    margin-bottom: 1rem;
+    padding: 10px;
+    
+}
+
+.head-banner > h2 > span {
+    color: #A75E33;
+}
+
+.head-banner > h5 {
+    color: #9C9C9C;
+    margin-bottom: 1.5rem;
+}
+
+/* head-image-banner */
+
+.head-image-banner > .first-img-banner {
+    width: 250px;
+    height: auto;
+}
+
+/* be our parnter button */
+
+.btn-custom-partner {
+    margin-left: 1.5%;
+    background-color: rgba(167, 94, 51, 60%);
+    border: solid 2px #DC7B42;
+    border-radius: 8px 8px;
+    padding: 8px 22px;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+
+/* media query */
+@media screen and (max-width: 500px) {
+
+
+}
