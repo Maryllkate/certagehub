@@ -93,20 +93,26 @@ hr.solid {
 /* third section */
 /* timeline carousel */
 .timeline {
+    position: relative;
     border-left: solid 3px #ffffff;
-    margin: 50px auto;
-    line-height: 2 rem;
+    margin: 40px auto;
     font-size: 1.03em;
-    padding: 20px;
+    padding: 20pxx;
     width: 50%;
 }
 
-.timeline::before {
+.circle {
+    position: absolute;
+    text-align: center;
+    border-radius: 50%;
+    width: 23px;
+    background-color: #ffffff;
+    left: -14px;
     
-
 }
 
 .container .content > p {
+    margin-left: 14px;
     padding-bottom: 10px;
 }
 
