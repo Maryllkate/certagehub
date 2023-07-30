@@ -16,3 +16,34 @@
     height: auto;
     cursor: pointer;
 }
+
+.text-header > div > h1 > span {
+    color: #A75E33;
+}
+
+.main-content {
+    background-color: #2B2B2F;
+}
+
+
+
+
+/* footer */
+.codehub-logo {
+    width: 63%;
+}
+
+.codehub-logo > h6,
+.social-media-section > h6{
+    margin-top: 10px;
+    color: #9C9C9C;
+}
+
+.social-media-section > h6 > span {
+    color: #9C9C9C;
+    text-decoration: underline;
+}
+
+.social-media-icons > h1 > a > i {
+    color: #ffffff;
+}
