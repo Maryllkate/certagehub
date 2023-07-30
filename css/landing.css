@@ -6,6 +6,7 @@
 .top-navbar{
     background-color: #232325;
     width: 100vw;
+    
 }
 .logo {
     width: 250px;
@@ -44,15 +45,9 @@ ul {
     padding: 2%;
 }
 
-.head-banner > h2 {
-    color: #ffffff;
-    margin-bottom: 1rem;
-    padding: 10px;
-    
-}
-
 .head-banner > h2 > span,
-.second-text-center > h2 > span {
+.second-text-center > h2 > span,
+.container > .content > p > span {
     font-weight: bold;
     color: #A75E33;
 }
@@ -86,7 +81,12 @@ hr.solid {
 }
 
 /* third section */
-
+/* timeline carousel */
+.timeline {
+    line-height: 1.4em;
+    font-size: 1.03em;
+    padding: 50px;
+}
 
 
 /* media query */
