@@ -35,7 +35,7 @@ ul {
     background-color: #2B2B2F;
 }
 
-.first-banner-section {
+.banner-section {
     padding: 5% 2% 5% 0;
 }
 
@@ -64,7 +64,7 @@ ul {
 
 /* head-image-banner */
 
-.head-image-banner > .first-img-banner {
+.head-image-banner > .img-banner {
     width: 350px;
     height: auto;
 }
@@ -76,11 +76,16 @@ ul {
     background-color: rgba(167, 94, 51, 60%);
     border: solid 2px #DC7B42;
     border-radius: 8px 8px;
-    padding: 8px 22px;
+    padding: 8px 27px;
     box-shadow: 2px 2px 4px #000000;
 }
+/* solid border one-liner */
+hr.solid {
+    border-top: 2px solid grey;
+    transform: rotate(-3deg);
+}
 
-/* second section */
+/* third section */
 
 
 
