@@ -13,13 +13,18 @@
     height: auto;
     cursor: pointer;
 }
+
+.selection-container {
+    width: 35%;
+}
+
 .selection-container > ul > li > a, 
 ul {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     color: #ffffff;
     text-decoration: none;
-    list-style-type: none;
+    list-style: none;
 }
 
 .btn-custom-dark {
@@ -47,14 +52,19 @@ ul {
 
 .head-banner > h2 > span,
 .second-text-center > h2 > span,
+.why-us-section > h2 > span,
 .container > .content > p > span {
     font-weight: bold;
     color: #A75E33;
 }
 
+.head-banner > h2 {
+    margin-bottom: 2.5rem;
+}
+
 .head-banner > h5 {
     color: #9C9C9C;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
 }
 
 /* head-image-banner */
@@ -83,11 +93,22 @@ hr.solid {
 /* third section */
 /* timeline carousel */
 .timeline {
-    line-height: 1.4em;
+    border-left: solid 3px #ffffff;
+    margin: 50px auto;
+    line-height: 2 rem;
     font-size: 1.03em;
-    padding: 50px;
+    padding: 20px;
+    width: 50%;
 }
 
+.timeline::before {
+    
+
+}
+
+.container .content > p {
+    padding-bottom: 10px;
+}
 
 /* media query */
 @media screen and (max-width: 500px) {
