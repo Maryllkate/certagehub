@@ -33,7 +33,6 @@ ul {
 
 .main-banner {
     background-color: #2B2B2F;
-    height: 100vh;
 }
 
 .first-banner-section {
@@ -52,7 +51,9 @@ ul {
     
 }
 
-.head-banner > h2 > span {
+.head-banner > h2 > span,
+.second-text-center > h2 > span {
+    font-weight: bold;
     color: #A75E33;
 }
 
@@ -64,7 +65,7 @@ ul {
 /* head-image-banner */
 
 .head-image-banner > .first-img-banner {
-    width: 250px;
+    width: 350px;
     height: auto;
 }
 
@@ -78,6 +79,9 @@ ul {
     padding: 8px 22px;
     box-shadow: 2px 2px 4px #000000;
 }
+
+/* second section */
+
 
 
 /* media query */
