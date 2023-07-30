@@ -159,6 +159,10 @@ ul {
 }
 
 /* footer */
+.codehub-logo {
+    width: 63%;
+}
+
 .codehub-logo > h6,
 .social-media-section > h6{
     margin-top: 10px;
