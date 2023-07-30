@@ -148,6 +148,7 @@ ul {
 /* fifth section */
 /* solid border one-liner */
 .straight-solid {
+    margin: 2% 0;
     border-top: 2px solid grey;
 }
 
@@ -157,6 +158,21 @@ ul {
     padding: 0 1%;
 }
 
+/* footer */
+.codehub-logo > h6,
+.social-media-section > h6{
+    margin-top: 10px;
+    color: #9C9C9C;
+}
+
+.social-media-section > h6 > span {
+    color: #9C9C9C;
+    text-decoration: underline;
+}
+
+.social-media-icons > h1 > a > i {
+    color: #ffffff;
+}
 
 /* media query */
 @media screen and (max-width: 500px) {
