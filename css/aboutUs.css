@@ -17,13 +17,23 @@
     cursor: pointer;
 }
 
-.text-header > div > h1 > span {
+span {
+    font-weight: bold;
     color: #A75E33;
 }
 
 .main-content {
     background-color: #2B2B2F;
 }
+
+/* about us - content */
+.content {
+    font-size: 20px;
+    line-height: 1.4rem;
+    color: #9C9C9C;
+}
+
+
 
 
 
