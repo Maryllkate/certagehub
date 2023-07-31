@@ -33,10 +33,11 @@ span {
     color: #9C9C9C;
 }
 
-
-
-
-
+/* straight - solid liner */
+.straight-solid {
+    margin: 2% 0;
+    border-top: 2px solid grey;
+}
 
 /* footer */
 .codehub-logo {
