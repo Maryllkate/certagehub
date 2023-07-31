@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #232325;
+}
+.top-navbar{
+    width: 100vw;
+    margin: 0 5% 0 2% !important;
+    
+}
+.logo {
+    width: 250px;
+    height: auto;
+    cursor: pointer;
+}
+
+span {
+    font-weight: bold;
+    color: #A75E33;
+}
+
+.main-content {
+    background-color: #2B2B2F;
+}
+
+/* contact content */
+.sub-header > h4 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.container > p {
+    font-size: 18px;
+    color: #9C9C9C;
+}
+
+/* cards */
+.cards {
+    color: #ffffff;
+    background-color: #161616;
+    border: solid 2px #31363D;
+    border-radius: 25px;
+}
+
+.card-title,
+.card-text {
+    text-align: center;
+    padding-bottom: 22px;
+}
+
+/* straight - solid liner */
+.straight-solid {
+    margin: 2% 0;
+    border-top: 2px solid grey;
+}
+
+/* button email & support us */
+.btn-contact {
+    background-color: #1D2024;
+    border: solid 2px #31363D;
+    border-radius: 8px 8px;
+    color: #ffffff;
+    padding: 8px 27px;
+}
+
+/* footer */
+.codehub-logo {
+    width: 63%;
+}
+
+.codehub-logo > h6,
+.social-media-section > h6{
+    margin-top: 10px;
+    color: #9C9C9C;
+}
+
+.social-media-section > h6 > span {
+    color: #9C9C9C;
+    text-decoration: underline;
+}
+
+.social-media-icons > h1 > a > i {
+    color: #ffffff;
+}
