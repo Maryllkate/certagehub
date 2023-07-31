@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #232325;
+}
+.top-navbar{
+    width: 100vw;
+    margin: 0 5% 0 2% !important;
+    
+}
+.logo {
+    width: 250px;
+    height: auto;
+    cursor: pointer;
+}
+
+span {
+    color: #A75E33;
+}
+
+.main-content {
+    background-color: #2B2B2F;
+}
+
+/* main-content */
+.content > p {
+    font-size: 22px;
+    line-height: 1.4rem;
+}
+
+/* cards */
+.cards {
+    background-color: #21262D;
+    border: solid 2px #31363D;
+    border-radius: 25px;
+    
+    
+}
+
+.card-title {
+    color: #ffffff!important;
+    font-weight: bold;
+}
+
+.content,
+.card-text {
+    color: #9C9C9C;
+}
+
+/* button for contact us */
+.btn-contact-us {
+    background-color: rgba(33, 204, 81, 10%);
+    border: solid 2px #2B7941;
+    border-radius: 8px 8px;
+    padding: 8px 27px;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+/* straight - solid liner */
+.straight-solid {
+    margin: 2% 0;
+    border-top: 2px solid grey;
+}
+
+/* footer */
+.codehub-logo {
+    width: 63%;
+}
+
+.codehub-logo > h6,
+.social-media-section > h6{
+    margin-top: 10px;
+    color: #9C9C9C;
+}
+
+.social-media-section > h6 > span {
+    color: #9C9C9C;
+    text-decoration: underline;
+}
+
+.social-media-icons > h1 > a > i {
+    color: #ffffff;
+}
